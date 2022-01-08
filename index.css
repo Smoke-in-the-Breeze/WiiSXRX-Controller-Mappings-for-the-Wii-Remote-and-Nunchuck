@@ -36,7 +36,7 @@ tr.break {
     padding-top: 33px;
 }
 
-img {
+table img {
     height: 37px; /* chosen to avoid rows "jumping" */
     vertical-align: middle;
 }
