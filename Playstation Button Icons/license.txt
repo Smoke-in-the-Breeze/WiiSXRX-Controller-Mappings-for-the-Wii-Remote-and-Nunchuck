@@ -1,5 +1,6 @@
-Author: VictorPines
-This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license. 
-https://creativecommons.org/licenses/by-sa/4.0/
+Playstation Button Graphics:
 
-https://commons.wikimedia.org/wiki/Special:ListFiles?limit=500&user=VictorPines&offset=20180301064236%7CBeatmania_PS1_official_controller.jpg
+Author: VictorPines
+These files is licensed under the Creative Commons Attribution-Share Alike 4.0 International license. 
+https://creativecommons.org/licenses/by-sa/4.0/
+No alterations have been made to the original .svg files.

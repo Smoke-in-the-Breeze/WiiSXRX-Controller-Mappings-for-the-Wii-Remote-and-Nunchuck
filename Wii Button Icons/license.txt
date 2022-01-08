@@ -1,3 +1,7 @@
+Wii Remote and Nunchuck Button Graphics:
+
 Found on:
 https://freesvg.org/1445248109
 https://creativecommons.org/licenses/publicdomain/
+Author: Unknown, not listed with .svg file's source.
+No alterations have been made to the original .svg file except to separate the sheet into the indiviual .svg files needed for each button.

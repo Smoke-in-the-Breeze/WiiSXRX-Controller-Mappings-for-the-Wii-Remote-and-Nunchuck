@@ -29,7 +29,7 @@ td span {
 }
 
 tr.break {
-    page-break-before: always;
+    break-before: page;
 }
 
 .space th {
@@ -47,6 +47,8 @@ ul {
 
 li {
     list-style-type: none;
+    font-size: 20px;
+    line-height: 1.5em;
 }
 
 @media screen {
