@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    border: 0;
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+}
+
+td, th {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 15px;
+}
+
+th {
+    border-bottom: 1px solid black;
+}
+
+th.fixedWidth {
+    width: 280px;
+}
+
+td span {
+    font-size: 1.5em;
+}
+
+tr.break {
+    page-break-before: always;
+}
+
+.space th {
+    padding-top: 33px;
+}
+
+img {
+    height: 37px; /* chosen to avoid rows "jumping" */
+    vertical-align: middle;
+}
+
+@media screen {
+    body {
+        min-height: calc(100vh - 9px);
+    }
+}
+
+@media print {
+    body {
+        margin: 0;
+    }
+
+    @page {
+        margin: 27px 50px 50px;
+    }
+
+    tr:first-child th {
+        padding-top: 33px;
+    }
+    
+    .noPrint {
+        display: none
+    }
+}
