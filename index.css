@@ -51,6 +51,14 @@ li {
     line-height: 1.5em;
 }
 
+.sm {
+    height: 29px;
+}
+
+.med {
+    height: 31px;
+}
+
 @media screen {
     body {
         min-height: calc(100vh - 9px);
