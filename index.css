@@ -5,6 +5,11 @@ body {
     font-family: Arial, sans-serif;
 }
 
+main {
+    max-width: 628px;
+    margin: 0 30px;
+}
+
 table {
     border: 0;
     border-collapse: collapse;
@@ -45,10 +50,22 @@ ul {
     padding: 0;
 }
 
+li > ul {
+    padding-left: 30px;
+}
+
 li {
     list-style-type: none;
     font-size: 20px;
     line-height: 1.5em;
+}
+
+li li {
+    font-size: 0.85em;
+}
+
+li.space {
+    margin-bottom: 1em;
 }
 
 .sm {
